@@ -1,4 +1,4 @@
-## Giới thiệu một số hàm builIn function
+## 概要
 
 1. Alert
 2. Console
