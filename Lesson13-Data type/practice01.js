@@ -1,8 +1,10 @@
 var a = 1;
 
 /**
- * Lưa tạm trong ram lưa trong một vùng nhớ thì ta không thể sữa giá trị
- * khi gán giá trị 2 thì sẻ được tạo ra một vùng nhớ mới
+ * KIỂU DỮ LIỆU NGUYÊN THỦY
+ * Giá trị được gán Lưa tạm trong RAM
+ * Giá trị lưu trong một vùng nhớ này thì ta không thể chỉnh sửa
+ * khi gán giá trị  khác 2 thì sẻ được tạo ra một vùng nhớ mới
  * đó là kiểu dữ liệu nguyên thủy
  */
 // ★ Primitive Data　★
@@ -32,6 +34,7 @@ var id = Symbol("id"); // unique
 var id2 = Symbol("id"); // unique
 
 console.log(id === id2);
+//=> FALSE
 
 // ★　Complex Data　★
 
@@ -45,7 +48,7 @@ var myFunction = function() {
 
 // Object
 var myObjectType = {
-    name: "SonDang",
+    name: "Nhan Nguyen",
     age: 18,
     address: "HaNoi",
     myFunction: function() {},
