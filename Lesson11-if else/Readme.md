@@ -1,7 +1,5 @@
 ## Convert sang Kiểu dữ liệu boolean
 
----
-
 1.  0
 2.  false
 3.  '' or ""

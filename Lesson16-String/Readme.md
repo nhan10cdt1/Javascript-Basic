@@ -1,7 +1,5 @@
 ## Chuỗi trong javascript
 
----
-
 1. Tạo chuỗi
 
 - Các cách tạo chuỗi

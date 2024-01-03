@@ -1,7 +1,5 @@
 ## Tham số hàm
 
----
-
 1. Tham số trong
 
    - Định nghĩa
@@ -22,6 +20,6 @@
 3. Arguments
 
    - Đối tượng argument
-   - Giới thiệu vòng **for of**
+   - Giới thiệu vòng **for-of**
 
 4. Rerturn của Hàm

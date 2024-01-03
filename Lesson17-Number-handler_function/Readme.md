@@ -1,7 +1,5 @@
 ## Kiểu số number trong javascript
 
----
-
 1. Tạo giá trị Number
 
 - Các cách tạo

@@ -1,8 +1,6 @@
 ## Comment trong js
 
----
-
-1. mục đích dự dụng
+1. mục đích sử dụng
 
 - Comment
 - Vô hiệu hóa mã

@@ -1,7 +1,5 @@
 ## Built - in function
 
----
-
 1. Alert
 2. Console
 3. Confirm
