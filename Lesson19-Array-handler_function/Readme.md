@@ -47,11 +47,11 @@ keyword : javascript array methods
 
 9.  slicing
 
-- Cắt phần của mảng
-  array. slice('vị trí của con trỏ','số lượng phần tử muốn cắt')
+    - Cắt phần của mảng
+      array. slice('vị trí của con trỏ','số lượng phần tử muốn cắt')
 
-- Nếu muốn cắt từ vị trị con trỏ đến hết thì không cần thêm đối số thứ 2
+    - Nếu muốn cắt từ vị trị con trỏ đến hết thì không cần thêm đối số thứ 2
 
-> ứng dụng dùng để copy mảng array. slice(0)
+    > ứng dụng dùng để copy mảng array. slice(0)
 
-- Củng có thể truyền vào đối số âm lấy ngược lại
+    - Củng có thể truyền vào đối số âm lấy ngược lại
