@@ -1,5 +1,7 @@
 ## Comment trong js
 
+---
+
 1. mục đích dự dụng
 
 - Comment

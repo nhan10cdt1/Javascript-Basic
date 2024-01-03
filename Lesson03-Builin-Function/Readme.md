@@ -1,4 +1,6 @@
-## 概要
+## Built - in function
+
+---
 
 1. Alert
 2. Console

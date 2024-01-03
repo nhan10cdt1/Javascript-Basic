@@ -1,5 +1,7 @@
 ## String
 
+---
+
 1.  Length
 2.  Find Index
 3.  Cut string

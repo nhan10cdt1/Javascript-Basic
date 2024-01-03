@@ -1,5 +1,7 @@
 ## Hiểu hơn về lệnh điều kiện và phép so sánh
 
+---
+
 ```c
 var a = 1;
 var b = 2;

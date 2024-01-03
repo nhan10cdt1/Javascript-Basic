@@ -1,5 +1,7 @@
 ## Logical
 
+---
+
 1. && - AND
 2. || - OR
 3. ! - NOT

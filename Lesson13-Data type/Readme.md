@@ -1,5 +1,7 @@
 ## Kiểu dữ liệu trong javascript
 
+---
+
 1. Kiểu dữ liệu nguyên thủy - Primitive Data
 
 - Number

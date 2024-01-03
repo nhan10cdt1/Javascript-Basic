@@ -1,5 +1,7 @@
 ## Toán tử ++, --
 
+---
+
 Toán tử để tăng lên 1 đơn vị hoặc giảm đi 1 đơn vị của toán hạng
 
 1. Prefix

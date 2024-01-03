@@ -1,5 +1,7 @@
 ## Mảng trong Javascript - Array
 
+---
+
 1. Tạo mảng
 
 - cách tạo mảng
