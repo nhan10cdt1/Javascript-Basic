@@ -1,5 +1,7 @@
 ## Làm việc với Array
 
+---
+
 keyword : javascript array methods
 
 1.  To String
