@@ -45,3 +45,16 @@
 6. reduce
 
 - Khi muốn nhận về một giá trị duy nhất
+
+```c
+/*
+accumulator  : Biến tích trữ khởi tạo có bằng giá trị initvalue trong lần chạy đầu tiên
+currentValue : Giá trị hiện tại
+cerrentIndex : inddex tương ứng với giá trị hiện tại
+originArray  : Mảng giống nhưng mang được đưa vào
+*/
+function coinHandler(accumulator, currentValue, cerrentIndex, originArray) {
+    return accumulator + currentValue.coin;
+}
+var totalCoin = courses.reduce(coinHandler, 0); //initial value
+```
