@@ -59,7 +59,7 @@ var result = numbers.reduce((total, currentValue, currentIndex, origiArray) => {
 
 // Bài tập thực hành reduce
 
-// làm phẳng mảng
+// Làm phẳng mảng
 var depthAraay = [1, 2, [3, 4], 5, 6, [7, 8, 9]];
 
 var flatArray = depthAraay.reduce(function(flatOutPut, depthItem) {
