@@ -1,3 +1,3 @@
 var languages = ["Javascript", "PHP", "Ruby"];
 
-console.log(languages.join(", "));
+console.log(languages.join(","));
