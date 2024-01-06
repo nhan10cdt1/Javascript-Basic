@@ -3,13 +3,12 @@ var boxElement = document.querySelector(".box");
 boxElement.classList.add("class-1", "class-2");
 
 //contains
-
 console.log(boxElement.classList.contains("class-1"));
-// remove
+//remove
 boxElement.classList.remove("class-1");
 
-// toggle
+//toggle
 boxElement.classList.toggle("red");
 
-// element
+//element
 console.log(boxElement);
