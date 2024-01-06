@@ -13,6 +13,7 @@ console.log(boxElement.style);
 
 // Cách thêm nhiều thuôc tính băng Object assign
 // Thêm vào css inline .
+
 Object.assign(boxElement.style, {
   width: "100px",
   height: "100px",
