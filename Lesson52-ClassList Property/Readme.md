@@ -10,7 +10,7 @@
 
 3. remove
 
-   - xóa class khỏi element
+   - Xóa class khỏi element
 
 4. toggle
 

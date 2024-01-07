@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .link-1:hover::after {
+        content: "Không hoạt động khi click vào đường link";
+        position: absolute;
+        font-size: 20px;
+        color: red;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        justify-content: space-between;
+    }
+    
+    .link {
+        display: block;
+    }
+</style>
+
+<body>
+    <button id="btn"> Click me!</button>
+    <script src="./practice01.js"></script>
+</body>
+
+</html>
