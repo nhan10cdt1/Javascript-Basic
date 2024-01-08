@@ -18,16 +18,3 @@ setTimeout(() => {
         // Sau 3s thì bị function trống ghi đè , Hủy bỏ lắng nghe .
     };
 }, 3000);
-
-// Giả sử function xử lý công việc
-function viec1() {
-    console.log("Viec 1");
-}
-
-function viec2() {
-    console.log("Viec 2");
-}
-
-function viec3() {
-    console.log("Viec 2");
-}

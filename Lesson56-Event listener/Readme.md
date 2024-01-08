@@ -2,7 +2,7 @@
 
 ## Event listener
 
-#### Lắng nghe được những sự kiển sảy ra trong Dom
+#### Lắng nghe được những sự kiển xảy ra trong Dom
 
 ※ Tùy theo trường hợp có thể sử dụng DOM event hoặc Event listener.
 
