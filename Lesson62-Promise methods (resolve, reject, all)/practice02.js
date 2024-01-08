@@ -3,6 +3,7 @@
   2. Promise.reject
   3. Promise.all  
   // Bất đồng bộ và muốn chạy song song.
+  // Logic đều là bất đồng bộ , không phụ thuộc với nhau,Lấy kết quả làm việc gì đó chung.
  */
 
 var Promise = new Promise(function(resolve, reject) {
@@ -19,9 +20,10 @@ promise
         console.log("err :", err);
     });
 
-// promise resolve
-
+// promise luôn trả về trạng thái thành công
 var promise = Promise.resolve("Success!");
+
+// Promise luôn trả về trạng thái thất bại
 var promise = Promise.reject("Fail!");
 
 var promise1 = new Promise(function(resolve, reject) {
@@ -37,7 +39,7 @@ var promise2 = new Promise(function(resolve, reject) {
 });
 
 // Nếu 1 trong 2 bị reject thì dừng , nhảy xuống catch.
-// Nhận đối số vào là một mảng
+// Nhận đối số vào là một mảng , không phân biệt thứ tự
 // PromiseAll trả về một promise, nên có thể .then
 // Khi các thành phần promise hoàn thành thì mới nhảy đến xử lý trong then
 // Trả về một mảng kết quả , trả về sau khi chạy từng promise .
