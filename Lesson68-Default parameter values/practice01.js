@@ -1,36 +1,15 @@
-/**
-  1. Đinh nghĩa key và value cho object bằng 1 cách ngắn gọn hơn 
-  2. Định nghĩa method cho object 
-  3. Định nghĩa key cho object dưới dạng biến 
- */
-
-var name = "Javascript";
-var price = 1000;
-
-// Định nghĩa key và value cho object ngắn gọn.
-var course1 = {
-    name: name,
-    price: price,
-};
-
-console.log(course1);
-
-// định nghĩa method cho object constructor
-var course2 = {
-    name,
-    price,
-    getName() {
-        return this.name;
-    },
-};
-
-console.log(course2.getName());
-// Định nghĩa key cho object dưới dạng biến
-var fielName = "name";
-var fielPrice = "price";
-const course3 = {
-    [fielName]: "Javascript",
-    [fielPrice]: 1888,
-};
-
-console.log(course3);
+// ES5
+// Không truyền đối số thì lấy giá trị mặc định.
+function logger(log) {
+    if (typeof log === "underfined") {
+        log = "Giá trị mặc định";
+    }
+    console.log(log);
+}
+// ES6
+// Tham số không bắt buộc phải nhập.
+// type - trong
+function logger(log = "Giá trị mặc định", isAlert = false, type = "log") {
+    if (isAlert) return alert(log);
+    console[type].log(log);
+}
