@@ -6,10 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .input-item {
+        display: flex;
+        width: 500px;
+    }
+    
+    .input-item label {
+        min-width: 100px;
+    }
+    
+    .input-item input {
+        flex: 1;
+    }
+    
+    button {
+        align-items: center;
+    }
+</style>
 
 <body>
-    <h1>JavaScript basic</h1>
-    <script src="./Lesson04-Operator/practice01.js"></script>
+    <h1>javascript basic</h1>
+
+    <ul id="list-courses"></ul>
+
+    <div>
+        <div class="input-item">
+            <label for="">ID</label>
+            <input type="text" name="id">
+        </div>
+        <div class="input-item">
+            <label for="">Name</label>
+            <input type="text" name="name">
+        </div>
+        <div class="input-item">
+            <label for="">Description</label>
+            <input type="text" name="description">
+        </div>
+        <div>
+            <button type="button" id="create">Create</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+
 </body>
 
 </html>
